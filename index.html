@@ -11,6 +11,9 @@
 			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
+			    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 		}
 
 
@@ -19,7 +22,7 @@
             color: #fff;
             padding: 20px 0;
             text-align: center;
-						margin-bottom: 20px; 
+	    margin-bottom: 20px; 
 
         }
 
@@ -45,9 +48,12 @@
             padding: 14px 20px;
         }
 
-        nav ul li a:hover {
-            background-color: #e74c3c; /* Same hover effect as in movies.html */
-            border-radius: 5px;
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+						    font-size: 1.5em; /* Adjust size as needed */
+
         }
 
         .content-container {
@@ -76,6 +82,7 @@
         footer p {
             font-size: 0.9em;
             color: #bdc3c7;
+
         }
     </style>
 </head>
